@@ -1,1 +1,1 @@
-# Minecraft Server Bot
+# Basic Discord Bot Template
