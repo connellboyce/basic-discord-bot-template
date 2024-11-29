@@ -1,6 +1,10 @@
 # Basic Discord Bot Template
 
 ## How to run
+Install dependencies with the following command:
+```
+pip install -r requirements.txt
+```
 Use the following command to run the bot:
 ```
 python bot.py
