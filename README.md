@@ -12,11 +12,23 @@ python bot.py
 
 #### Setup Bot in Discord Developer Portal
 - Open the [Discord Developer Portal](https://discord.com/developers/applications)
+- Click `New Application`
+- Name it and agree to Terms & Conditions
+  - Once created, you can customize as necessary
+- Go to OAuth2 tab
+  - Select scopes: `bot` and `messages.read`
+  - Select permissions as needed. It is suggested to at minimum select the following:
+    - General Permissions: `View Channels`
+    - Text Permissions: `Send Messages`
+  - Copy and paste the generated URL in your browser to invite the bot to one of your servers.
+- Go to Bot tab
+  - Click `Reset Token`
+    - Save this token for later, you will need to supply this as the `BOT_TOKEN` environment variable.
 
 #### Update Contents
 - This template is set up to return the response of an arbitrary API.
   - Update the logic as necessary to suit your needs.
-- Update your BOT_TOKEN with the one obtained from the Discord Developer Portal.
+- Update your `BOT_TOKEN` with the one obtained from the Discord Developer Portal.
 
 #### Deploy
 - This bot will need to be running 24/7. You can run it on your computer constantly, or you can deploy it.
