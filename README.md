@@ -32,6 +32,7 @@ python bot.py
 #### Update Contents
 - This template is set up to return the response of an arbitrary API.
   - Update the logic as necessary to suit your needs.
+- Alter the commands. The function name is what the bot uses as the command name. Update the default function name and create new command functions as needed.
 - Update your `BOT_TOKEN` with the one obtained from the Discord Developer Portal.
 
 #### Deploy
@@ -40,3 +41,7 @@ python bot.py
 - A service like [Render.com](https://www.render.com/) will allow you to host consistently for free.
 - (Optional) Set up a pinging service, like [UptimeRobot](https://uptimerobot.com/) to ping your hosted application's Flask server (via keep_alive.py).
   - Many free services, such as Render will become idle if the application is not being accessed frequently enough, and so the above step may be needed.
+ 
+#### Usage
+- Once the bot is running, in a channel the bot has access to, enter the function name you'd like to execute, prepended by an exclamation point.
+  - e.g.: `!command`
