@@ -26,6 +26,7 @@ python bot.py
     - Text Permissions: `Send Messages`
   - Copy and paste the generated URL in your browser to invite the bot to one of your servers.
 - Go to Bot tab
+  - Enable `Message Content Intent`
   - Click `Reset Token`
     - Save this token for later, you will need to supply this as the `BOT_TOKEN` environment variable.
 
