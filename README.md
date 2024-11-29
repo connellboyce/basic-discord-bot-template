@@ -1,1 +1,26 @@
 # Basic Discord Bot Template
+
+## How to run
+Use the following command to run the bot:
+```
+python bot.py
+```
+
+## How to Use
+#### Clone Template
+- Create a new repository using this template.
+
+#### Setup Bot in Discord Developer Portal
+- Open the [Discord Developer Portal](https://discord.com/developers/applications)
+
+#### Update Contents
+- This template is set up to return the response of an arbitrary API.
+  - Update the logic as necessary to suit your needs.
+- Update your BOT_TOKEN with the one obtained from the Discord Developer Portal.
+
+#### Deploy
+- This bot will need to be running 24/7. You can run it on your computer constantly, or you can deploy it.
+  - If you try to host for free, you will need to ensure it has constant uptime, or else it will fail to listen properly.
+- A service like [Render.com](https://www.render.com/) will allow you to host consistently for free.
+- (Optional) Set up a pinging service, like [UptimeRobot](https://uptimerobot.com/) to ping your hosted application's Flask server (via keep_alive.py).
+  - Many free services, such as Render will become idle if the application is not being accessed frequently enough, and so the above step may be needed.
